@@ -1,0 +1,22 @@
+@media  only screen and  (max-width: 410px),  only screen and (max-device-width: 996px){
+    /* index.html */
+    #title {
+        font-family: 'Rubik', sans-serif;
+        margin-top: -78%;
+        font-size: larger;
+        color: white;
+        position: absolute;
+    }
+    .form {
+        width: 85%;
+        background: #3c0077d6;
+        height: 51%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        border-radius: 3%;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
