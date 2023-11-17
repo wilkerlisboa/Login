@@ -22,6 +22,8 @@ Depois é realizado uma comparação utilizando o IF e se for verdadeiro sera ex
         var myWindow = window.open("", "MsgWindow", "width=200,height=100");
         myWindow.document.write("<p>USUARIO INVALIDO!!!!</p>");
     }
+
+Pode seguir os exemplos de tela a baixo para visualizar com resuldado final
     
 ## Telas
 ![Group 33](https://github.com/wilkerlisboa/login/assets/73085812/98185075-4bda-45e6-96a9-01665436515f)
@@ -29,4 +31,6 @@ Depois é realizado uma comparação utilizando o IF e se for verdadeiro sera ex
 
 ## Contato
 NOME: Wilker Lisboa Soares da Silva
+
 EMAIL: wilkersoares.wl@gmail.com
+
