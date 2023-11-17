@@ -1,0 +1,28 @@
+@media  only screen and  (max-width: 410px),  only screen and (max-device-width: 996px){
+   /* main.html */
+    img {
+        width: 69%;
+        height: 69%;
+        margin-top: -83%;
+    }
+    .back{
+        width: 87%;
+        height: 10%;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 17%;
+        font-size: larger;
+        color: black;
+        position: absolute;
+    }
+    .button{
+        margin-top: 116%;
+        position: absolute;
+        width: 42%;
+        border-style: none;
+        height: 6%;
+        background: #6c63ff;
+        color: white;
+        box-shadow: 0px 26px 30px -12px #6c63ff;
+    }
+    
+}
