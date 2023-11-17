@@ -1,8 +1,8 @@
 function inside(){
     // VARIAVEL
         // VALORES FIXO PARA VALIDAR
-    var email_adm = "wilkersoares.wl@gmail.com";
-    var senha_adm = "lisboa123*";
+    var email_adm = "teste@gmail.com";
+    var senha_adm = "teste123*";
 
         // ELEMENTOS DE ENTRADA E BOTÃO DO HTML
     var email = document.getElementById('email').value;
@@ -12,7 +12,8 @@ function inside(){
     if (email === email_adm && senha === senha_adm) {
         window.open("./two/main.html", "_self");
     }else{
-        console.log("não funciona")
+        var myWindow = window.open("", "MsgWindow", "width=200,height=100");
+        myWindow.document.write("<p>USUARIO INVALIDO!!!!</p>");
     }
 }
 
