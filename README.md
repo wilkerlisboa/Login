@@ -16,9 +16,9 @@ Definir valores fixo para realizar a comparação com os valores de input que se
 Depois é realizado uma comparação utilizando o IF e se for verdadeiro será executado a função WINDOWS.OPEN para abrir a próxima página caso não seja verdadeiro será aberto um POP UP na tela dizendo que o usuario invalido, se o usuário for validado sairá na próxima página avisando o usuário que tudo se passa de um teste e mostra um botão para voltar ao início da tela de login.
 
 
-    // CODIGO JAVASCRIPT
+     // DECISÃO
     if (email === email_adm && senha === senha_adm) {
-        window.open("./two/main.html", "_self");
+        window.open("./public/two/main.html", "_self");
     }else{
         var myWindow = window.open("", "MsgWindow", "width=200,height=100");
         myWindow.document.write("<p>USUARIO INVALIDO!!!!</p>");
