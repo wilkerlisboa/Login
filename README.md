@@ -13,7 +13,8 @@ Definir valores fixo para realizar a comparação com os valores de input que se
     //CODIGO JAVASCRIPT
     var email_adm = "teste@gmail.com";
     var senha_adm = "teste123*";
-Depois é realizado uma comparação utilizando o IF e se for verdadeiro sera executado a função WINDOWS.OPEN para abrir a proxima pagina caso não seja verdadeiro será aberto um POP UP na tela dizendo que o usuario invalido, se o usuario for validado caira na proxima pagina avisando o usuario que tudo se passa de um teste e mostra um botão para voltar ao inicio da tela de login.
+Depois é realizado uma comparação utilizando o IF e se for verdadeiro será executado a função WINDOWS.OPEN para abrir a próxima página caso não seja verdadeiro será aberto um POP UP na tela dizendo que o usuario invalido, se o usuário for validado sairá na próxima página avisando o usuário que tudo se passa de um teste e mostra um botão para voltar ao início da tela de login.
+
 
     // CODIGO JAVASCRIPT
     if (email === email_adm && senha === senha_adm) {
