@@ -10,7 +10,7 @@ function inside(){
 
     // DECISÃO
     if (email === email_adm && senha === senha_adm) {
-        window.open("./two/main.html", "_self");
+        window.open("./public/two/main.html", "_self");
     }else{
         var myWindow = window.open("", "MsgWindow", "width=200,height=100");
         myWindow.document.write("<p>USUARIO INVALIDO!!!!</p>");
